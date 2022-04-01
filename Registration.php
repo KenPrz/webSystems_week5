@@ -60,30 +60,6 @@
 
 </head>
 <body>
-
-	<style type="text/css"> .has_error{ color: #842029; } .has_error input{ color: #842029; border-color: #842029; background-color: #f8d7da; } </style>
-	
-	<div class="container">
-
-		<div class="row mx-auto">
-			<div class="col-8 mx-auto">
-				<div class="py-3">
-					<img class="d-block mx-auto mb-4" src="https://www.freepnglogos.com/uploads/marvel-logo-png/new-marvel-studios-logo-debuted-marvelstudios-3.png" alt="image not found" height="100" width="350">
-					<p class="text-center">Welcome to Marvel Studio website! </p>
-					<p class="text-center">Please enter the needed information for account registration. </p>
-				</div>
-			</div>
-
-			<?php if($has_error == 1): ?>
-			<div class="col-12">
-				<div class="alert alert-danger" role="alert">
-					<strong class="">Attention!</strong>
-					<p class=""><?php echo $error_msg; ?></p>
-				</div>
-			</div>
-			<?php endif; ?>
-			
-		</div>
-	</div> 
+	<style type="text/css"> .has_error{ color: #842029; } .has_error input{ color: #842029; border-color: #842029; background-color: #f8d7da; } </style>	
 </body>
 </html>
