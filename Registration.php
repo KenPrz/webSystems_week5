@@ -60,6 +60,7 @@
 
 </head>
 <body>
-	<style type="text/css"> .has_error{ color: #842029; } .has_error input{ color: #842029; border-color: #842029; background-color: #f8d7da; } </style>	
+	<style type="text/css"> .has_error{ color: #842029; } .has_error input{ color: #842029; border-color: #842029; background-color: #f8d7da; } </style>
+	<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam inventore aliquam in quia odit distinctio, mollitia quis amet sapiente obcaecati?</p>
 </body>
 </html>
