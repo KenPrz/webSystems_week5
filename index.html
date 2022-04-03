@@ -34,10 +34,12 @@
             text-decoration: none;
             font-family: 'Bebas Neue', cursive;
             font-size: 190%;
+            transition: 0.5s;
         }
 
         li a:hover {
-            background-color: #111;
+            background-color: #3e8e41;
+            color: white;
         }
         body{
             background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
@@ -93,14 +95,21 @@
             background-color: #58605f;
         }
         /*button css*/
+
+        /*image css*/
+        img {
+            border-radius: 6%;
+            box-shadow: 5px 10px rgba(255, 255, 255, 0.841);
+        }
+        /*image css*/
 </style>
 </head>
 <body>
         <ul>
-            
-            <li><a href="#news">Articles</a></li>
-            <li><a href="#contact">About</a></li>
-            <li style="float:right"><a class="login" href="#about">LOGIN</a></li>
+            <li style="margin-left:10px; margin-right: 10px;"><a href="./index.html">HOME</a></li>
+            <li><a href="./articles.php">Articles</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li style="float:right"><a class="login" href="./login.php">LOGIN</a></li>
         </ul>
 
         <div class="container">
@@ -115,12 +124,14 @@
                             </div>        
                         </div>
 
-                        <button class="button"><span>Register</span></button>
+                        <a href="./Registration.php"><button class="button"><span>Register</span></button></a>
                     <!--Button register-->
                     </div>
                 </div>
                 <div class="col-6">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iste perspiciatis provident inventore nemo eius ullam reiciendis atque voluptas ab dignissimos sint ratione nam rerum totam, quod itaque maiores quibusdam aut doloremque magni? Eius, iste? Libero aliquid, deserunt necessitatibus officia nostrum sit. Dolores perferendis distinctio tempore aperiam. Sunt labore quam molestiae dignissimos recusandae aut sint doloremque eaque vitae suscipit explicabo eius, quibusdam, corrupti odit delectus velit. Eum minima placeat nesciunt. Similique eius quod doloremque velit voluptates officia quas odit ipsam quisquam quo dicta placeat tempore ex eaque vel deleniti ea deserunt ratione, esse veritatis ad! Architecto non fugit esse adipisci.</p>
+                        <div class="image-cropper">
+                            <img src="https://i.ibb.co/zJWFJQ7/pexels-pixabay-326235.jpg" alt="pexels-pixabay-326235" border="0">
+                        </div>
                 </div>
             </div>
         </div>
